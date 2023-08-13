@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-image: url(img.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width: 30%;
+  height: 65%;
+  border: 1px solid #b11aec;
+  border-radius: .8rem;
+  background-color: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.input-area{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.input-area input{
+  padding: 10px 15px;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid #cb77ec;
+  margin-top: 20px;
+  color: white;
+  background-color: transparent;
+  outline: #ffffff;
+  font-size: .9rem;
+  /* border: 2px solid transparent; */
+}
+
+.input-area input:focus{
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.input-area input::placeholder{
+  color: white;
+}
+
+.check-area a{
+  color: white;
+  text-decoration: none;
+}
+
+.check-area a:hover{
+  text-decoration: underline;
+}
+
+.check-area{
+  font-size: .9rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.form button{
+  padding: 9px 35%;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: .4s;
+}
+
+.form button:hover{
+  /* border: 2px solid white; */
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(189, 105, 189);
+}
+
+.form p a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.form p{
+  font-size: .9rem;
+  margin-top: 10px;
+}
+
+.form p a:hover{
+  text-decoration: underline;
+}
